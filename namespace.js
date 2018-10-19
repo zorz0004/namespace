@@ -8,13 +8,14 @@ Date: October 19, 2018
 
 
 /*---- Create variables with var  ----*/
+var zorz0004 = null;
 
 document.addEventListener("DOMContentLoaded", init);
 
 
 function init() {
     
-    var zorz0004 = document.querySelector("#zorz004");
+    zorz0004 = document.querySelector("#zorz004");
     zorz0004.addEventListener("mouseover", mouseOver);
     
 }
@@ -27,8 +28,8 @@ function mouseOver() {
     
     
     
-  /*  
     
+/*
     document.addEventListener("DOMContentLoaded", init);
 
 function init() {
@@ -67,4 +68,3 @@ function mouseOut(e) {
     console.log(e.target);
 }
 
-*/
