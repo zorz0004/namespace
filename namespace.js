@@ -14,10 +14,10 @@ document.addEventListener("DOMContentLoaded", init);
 var zorz0004 = function init() {
     
     zorz0004 = document.createElement("section");
-    zorz0004.className = ".box";
+    zorz0004.className = "box";
     zorz0004.textContent = "zorz0004's Prety square.";
     
-    var square = document.getElementById("zorz0004");
+    var square = document.getElementById("boxes");
     square.appendChild(zorz0004);
     
     zorz0004.addEventListener("click", click);
