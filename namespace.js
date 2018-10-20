@@ -8,7 +8,7 @@ Date: October 19, 2018
 var zorz0004 = null;
 
 /*---- Create variables with var  ----*/
-document.addEventListener("DOMContentLoaded", init);
+//document.addEventListener("DOMContentLoaded", init);
 
 
 zorz0004 = function init() {
