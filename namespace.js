@@ -31,11 +31,11 @@ function click(){
 
 function mouseOver(e) {
     this.style.backgroundColor = "blue";
-    e.target.classList.toggle("focus");
+    //e.target.classList.toggle("focus");
 }
     
 function mouseOut(e){
-    e.target.classList.toggle("focus");
+    //e.target.classList.toggle("focus");
     e.target.removeAttribute("style");
 }    
     
