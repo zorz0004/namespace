@@ -14,9 +14,21 @@ var zorz0004 = { init: function() {
 
     var e = document.createElement("div");
     e.className = "box";
-    e.textContent = "zorz0004's Prety square.";
+    e.textContent = "zorz0004 square.";
+    
+    e.style.padding = "1rem";
+    e.style.border =  "0.5rem solid #d4d4d4";
+    e.style.backgroundColor =  "#e9e9e9";
+    e.style.margin = "0 1rem 1rem";
+    e.style.width = "120px";
+    e.style.height = "120px";
+    e.style.float = "left";
+    
+    
     e.getElementById("boxes").appendChild(e);
 
+    
+    
     e.addEventListener("click", function () {
         this.style.borderColor = "red";
     });
