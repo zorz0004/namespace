@@ -14,7 +14,7 @@ document.addEventListener("DOMContentLoaded", init);
 var zorz0004 = function init() {
     
     zorz0004 = document.createElement("section");
-    zorz0004.className = "zorz0004";
+    zorz0004.className = "box";
     zorz0004.textContent = "zorz0004's Prety square.";
     
     var square = document.getElementById("zorz0004");
@@ -25,11 +25,19 @@ var zorz0004 = function init() {
     zorz0004.addEventListener("mouseout", mouseOut);
 }
 
-function mouseOver() {
+function click(){
+    this.style.borderColor = "red";
+}
+
+function mouseOver(e) {
     this.style.backgroundColor = "blue";
+    e.target.classList.toggle("focus");
 }
     
-    
+function mouseOut(e){
+    e.target.classList.toggle("focus");
+    e.target.removeAttribute("style");
+}    
     
     
     
