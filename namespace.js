@@ -13,31 +13,22 @@ document.addEventListener("DOMContentLoaded", init);
 
 var zorz0004 = function init() {
     
-    zorz0004 = document.createElement("section");
+    zorz0004 = document.createElement("div");
     zorz0004.className = "box";
     zorz0004.textContent = "zorz0004's Prety square.";
+    document.getElementById("boxes").appendChild(zorz0004);
     
-    var square = document.getElementById("boxes");
-    square.appendChild(zorz0004);
-    
-    zorz0004.addEventListener("click", click);
-    zorz0004.addEventListener("mouseover", mouseOver);
-    zorz0004.addEventListener("mouseout", mouseOut);
+    zorz0004.addEventListener("click", function(){
+                                this.style.borderColor = "red";
+                              });
+    zorz0004.addEventListener("mouseover", function(){
+        this.style.backgroundColor = "blue";
+    });
+    zorz0004.addEventListener("mouseout", function(){
+        this.target.removeAttribute("style");
+    });
 }
-
-function click(){
-    this.style.borderColor = "red";
-}
-
-function mouseOver(e) {
-    this.style.backgroundColor = "blue";
-    //e.target.classList.toggle("focus");
-}
-    
-function mouseOut(e){
-    //e.target.classList.toggle("focus");
-    e.target.removeAttribute("style");
-}    
+  
     
     
     
