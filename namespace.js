@@ -6,26 +6,26 @@ Date: October 19, 2018
 *********************************/
 
 
-/*var zorz0004 = null;
-
 //---- Create variables with var  ----//
 //document.addEventListener("DOMContentLoaded", init);
 
 
-zorz0004 = function init() {
+var zorz0004 = { init: function() {
 
-    zorz0004 = document.createElement("div");
-    zorz0004.className = "box";
-    zorz0004.textContent = "zorz0004's Prety square.";
-    document.getElementById("boxes").appendChild(zorz0004);
+    var e = document.createElement("div");
+    e.className = "box";
+    e.textContent = "zorz0004's Prety square.";
+    e.getElementById("boxes").appendChild(e);
 
-    zorz0004.addEventListener("click", function () {
+    e.addEventListener("click", function () {
         this.style.borderColor = "red";
     });
-    zorz0004.addEventListener("mouseover", function () {
+    e.addEventListener("mouseover", function () {
         this.style.backgroundColor = "blue";
     });
-    zorz0004.addEventListener("mouseout", function () {
+    e.addEventListener("mouseout", function () {
         this.removeAttribute("style");
     });
-}*/
+}};
+
+
