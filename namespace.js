@@ -23,6 +23,7 @@ var zorz0004 = { init: function() {
     e.style.width = "120px";
     e.style.height = "120px";
     e.style.float = "left";
+    e.style.boxSizing = "border-box";
     
     
     e.getElementById("boxes").appendChild(e);
