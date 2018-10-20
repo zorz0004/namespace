@@ -13,14 +13,21 @@ document.addEventListener("DOMContentLoaded", init);
 
 var zorz0004 = function init() {
     
-    zorz0004 = document.querySelector("#zorz004");
-    zorz0004.addEventListener("mouseover", mouseOver);
+    zorz0004 = document.createElement("section");
+    zorz0004.className = "zorz0004";
+    zorz0004.textContent = "zorz0004's Prety square.";
     
+    var square = document.getElementById("zorz0004");
+    square.appendChild(zorz0004);
+    
+    zorz0004.addEventListener("click", click);
+    zorz0004.addEventListener("mouseover", mouseOver);
+    zorz0004.addEventListener("mouseout", mouseOut);
 }
 
 function mouseOver() {
-            this.style.backgroundColor = "blue";
-    }
+    this.style.backgroundColor = "blue";
+}
     
     
     
