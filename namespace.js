@@ -5,13 +5,13 @@ Description: Change the behavior of the respective box of the id zorz0004 at htt
 Date: October 19, 2018
 *********************************/
 
-
+var zorz0004 = null;
 
 /*---- Create variables with var  ----*/
 document.addEventListener("DOMContentLoaded", init);
 
 
-var zorz0004 = function init() {
+zorz0004 = function init() {
 
     zorz0004 = document.createElement("div");
     zorz0004.className = "box";
