@@ -34,8 +34,8 @@ var ZORZ0004 = {
 
         e.addEventListener("mouseover", function () {
             e.target.classList.toggle("highlight");
-         /*   e.style.backgroundColor = "cornflowerblue";
-            e.style.border = "0.5rem outset red";*/
+            e.style.backgroundColor = "cornflowerblue";
+            e.style.border = "0.5rem outset red";
         });
 
 
