@@ -27,12 +27,14 @@ var ZORZ0004 = {
 
         e.addEventListener("click", function () {
             e.style.backgroundColor = "red";
+            e.style.border = "0.5rem outset cornflowerblue";
             e.textContent = "\n OUCH! ";
             e.style.fontWeight = "bolder";
         });
 
         e.addEventListener("mouseover", function () {
             e.style.backgroundColor = "cornflowerblue";
+            e.style.border = "0.5rem outset red";
         });
 
 
