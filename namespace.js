@@ -10,11 +10,11 @@ Date: October 19, 2018
 //document.addEventListener("DOMContentLoaded", init);
 
 
-var zorz0004 = { init: function() {
+var ZORZ0004 = { init: function() {
 
     var e = document.createElement("div");
     e.className = "box";
-    e.textContent = "zorz0004 square.";
+    e.textContent = "zorz0004";
     
     e.style.padding = "1rem";
     e.style.border =  "0.5rem solid #d4d4d4";
