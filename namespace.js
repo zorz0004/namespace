@@ -33,7 +33,7 @@ var ZORZ0004 = {
         });
 
         e.addEventListener("mouseover", function () {
-            e.target.classList.toggle("highlight");
+            e.classList.toggle("highlight");
            /* e.style.backgroundColor = "cornflowerblue";
             e.style.border = "0.5rem outset red";*/
         });
@@ -41,7 +41,7 @@ var ZORZ0004 = {
 
         e.addEventListener("mouseout", function () {
             e.removeAttribute("style");
-            e.target.classList.toggle("highlight");
+            e.classList.toggle("highlight");
             /***** Restore decoration *********/
             /*e.style.padding = "1rem";
             e.style.border = "0.5rem outset gray";
