@@ -26,6 +26,7 @@ var ZORZ0004 = {
         document.getElementById("boxes").appendChild(e);
 
         e.addEventListener("click", function () {
+            e.classList.add("highlight");
             e.style.backgroundColor = "red";
             e.style.border = "0.5rem outset cornflowerblue";
             e.textContent = "\n OUCH! ";
@@ -33,6 +34,7 @@ var ZORZ0004 = {
         });
 
         e.addEventListener("mouseover", function () {
+            e.classList.add("highlight");
             e.style.backgroundColor = "cornflowerblue";
             e.style.border = "0.5rem outset red";
         });
