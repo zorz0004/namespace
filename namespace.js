@@ -5,11 +5,6 @@ Description: Change the behavior of the respective box of the id zorz0004 at htt
 Date: October 19, 2018
 *********************************/
 
-
-//---- Create variables with var  ----//
-//document.addEventListener("DOMContentLoaded", init);
-
-
 var ZORZ0004 = {
     init: function () {
 
