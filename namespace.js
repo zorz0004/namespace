@@ -13,14 +13,14 @@ var ZORZ0004 = {
         e.textContent = "zorz0004 \n SUCCESS";
         
         /******* Decoration *******/
-        e.style.padding = "1rem";
+       /* e.style.padding = "1rem";
         e.style.border = "0.5rem outset gray";
         e.style.backgroundColor = "white";
         e.style.margin = "0 1rem 1rem";
         e.style.width = "120px";
         e.style.height = "120px";
         e.style.float = "left";
-        e.style.boxSizing = "border-box";
+        e.style.boxSizing = "border-box";*/
         /**********************/
 
         document.getElementById("boxes").appendChild(e);
@@ -43,7 +43,7 @@ var ZORZ0004 = {
             e.removeAttribute("style");
             e.target.classList.toggle("highlight");
             /***** Restore decoration *********/
-            e.style.padding = "1rem";
+            /*e.style.padding = "1rem";
             e.style.border = "0.5rem outset gray";
             e.style.backgroundColor = "white";
             e.style.margin = "0 1rem 1rem";
@@ -51,7 +51,7 @@ var ZORZ0004 = {
             e.style.height = "120px";
             e.style.float = "left";
             e.style.boxSizing = "border-box";
-            e.textContent = "zorz0004 \n SUCCESS";
+            e.textContent = "zorz0004 \n SUCCESS";*/
             /**********************/
         });
     }
