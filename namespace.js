@@ -14,10 +14,10 @@ var ZORZ0004 = { init: function() {
 
     var e = document.createElement("div");
     e.className = "box";
-    e.textContent = "zorz0004 \n SUCESS \n :) ";
+    e.textContent = "zorz0004 \n SUCCESS";
     /**********************/
     e.style.padding = "1rem";
-    e.style.border =  "0.5rem solid black";
+    e.style.border =  "0.5rem outset gray";
     e.style.backgroundColor = "white";
     e.style.margin = "0 1rem 1rem";
     e.style.width = "120px";
