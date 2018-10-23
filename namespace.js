@@ -31,11 +31,13 @@ var ZORZ0004 = {
         document.getElementById("boxes").appendChild(e);
 
         e.addEventListener("click", function () {
-            e.style.borderColor = "red";
+            e.style.backgroundColor = "red";
+            e.textContent = "\n OUCH! ";
+            e.style.fontWeight = "bolder";
         });
 
         e.addEventListener("mouseover", function () {
-            e.style.backgroundColor = "blue";
+            e.style.backgroundColor = "cornflowerblue";
         });
 
 
