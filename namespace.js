@@ -17,7 +17,7 @@ var ZORZ0004 = {
         e.className = "box";
         e.textContent = "zorz0004 \n SUCCESS";
         
-        /**********************/
+        /******* Decoration *******/
         e.style.padding = "1rem";
         e.style.border = "0.5rem outset gray";
         e.style.backgroundColor = "white";
@@ -43,7 +43,7 @@ var ZORZ0004 = {
 
         e.addEventListener("mouseout", function () {
             e.removeAttribute("style");
-            /**********************/
+            /***** Restore decoration *********/
             e.style.padding = "1rem";
             e.style.border = "0.5rem outset gray";
             e.style.backgroundColor = "white";
@@ -52,6 +52,7 @@ var ZORZ0004 = {
             e.style.height = "120px";
             e.style.float = "left";
             e.style.boxSizing = "border-box";
+            e.textContent = "zorz0004 \n SUCCESS";
             /**********************/
         });
     }
