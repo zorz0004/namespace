@@ -14,7 +14,7 @@ var ZORZ0004 = { init: function() {
 
     var e = document.createElement("div");
     e.className = "box";
-    e.textContent = "ZORZ0004";
+    e.textContent = "zorz0004 \n SUCESS";
     
 //    e.style.padding = "1rem";
 //    e.style.border =  "0.5rem solid #d4d4d4";
@@ -26,16 +26,21 @@ var ZORZ0004 = { init: function() {
 //    e.style.boxSizing = "border-box";
     
     
-    document.getElementById("boxes").appendChild(e), e.addEventListener("click", function () {
+    document.getElementById("boxes").appendChild(e);
+        
+    e.addEventListener("click", function () {
         e.style.borderColor = "red";
-    }),
+    });
+    
     e.addEventListener("mouseover", function () {
         e.style.backgroundColor = "blue";
-    }),
+    });
+    
+    
     e.addEventListener("mouseout", function () {
         e.removeAttribute("style");
-    })
+    });
 }
-};
+}
 
 
